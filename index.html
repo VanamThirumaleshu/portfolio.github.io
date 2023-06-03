@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js" integrity="sha512-ioFpA4cD4gmoOhHglW4f6gep7w+YL7UMKtXx4ebJ5NN4SscmnZYYmSjkA+DaHGvBI4wpYVPx2C7DmmV9TgbIbQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <header data-aos="fade-down " class="shadow-lg bg-white p-3 mb-5 rounded">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li id="mynav-ul-li"><a  class="nav-link active"  href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li id="mynav-ul-li"><a class="nav-link" href="#about-me"><i class="fas fa-user"></i>About Me</a></li>
+                <li id="mynav-ul-li"><a class="nav-link" href="#projects"><i class="fas fa-folder-open"></i>Projects</a></li>
+                <li id="mynav-ul-li"><a class="nav-link" href="#skills"><i class="fas fa-file-alt"></i>Skills</a></li>
+                <li id="mynav-ul-li"><a class="nav-link" href="#contact-me"><i class="fas fa-phone"></i>Contact Me</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div class="container" >
+        <div class="row home-div justify-content-center">
+            <div class=" info col-md-6 text-center" data-aos="fade-right">
+                <h1>Welcome to my Portfolio</h1>
+                <h2>I am Thirumaleshu Vanam</h2>
+                <h3>I am a <span id="span-tag"></span></h3>
+                <a href="#contact-me" class="btn btn-outline-primary m-5">Contact Me</a>
+
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/myphoto.png" class="img-fluid myimg" data-aos="fade-left">
+            </div>
+        </div>
+
+        <!--about me div-->
+        <div class="row about-me justify-content-center text-center" id="about-me">
+            <h1 id="about-me-text">About Me</h1>
+            <div class="col-md-6 text-center about-div-1 mt-5 " data-aos="fade-right">
+                <h4>Welcome to my portfolio! I'm Vanam Thirumaleshu, a passionate Web Developer with a keen eye for Front end web development. With some experience in the field, I thrive on turning ideas into captivating visuals that leave a lasting impression. 
+
+                Throughout my journey, I have honed my skills in web desinging and development, allowing me to create innovative designs that seamlessly blend aesthetics with functionality. 
+
+                Beyond my technical expertise, I am a perpetual learner and constantly seek inspiration from various sources. I stay updated with the latest industry trends and design principles to deliver modern and relevant solutions to my clients. Curiosity fuels my creativity, and I am always excited to tackle new challenges that push the boundaries of my abilities.
+                
+                </h4>
+            </div>
+            <div class="col-md-5 mt-5 shadow p-3 mb-5 bg-white rounded" data-aos="fade-left">
+                <h3 style="color:teal">My social media accounts</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/thirumaleshu-vanam-552148276/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin fa-beat"></i>Linked In </a></li>
+                    <li><a href="https://github.com/VanamThirumaleshu/projects" class="github" target="_blank"><i class="fa-brands fa-github fa-beat"></i>Git Hub</a></li>
+                    <li><a href="https://twitter.com/VThirumaleshu" class="twitter" target="_blank"><i class="fa-brands fa-twitter fa-beat"></i>Twitter</a></li>
+                    <li><a href="https://www.instagram.com/thirumu28/" class="instagram" target="_blank"><i class="fa-brands fa-instagram fa-beat"></i>Instagram</a></li>
+                </ul>
+                <h3>Do you want to see my projects <a href="#projects" style="text-decoration: none;">Click Here</a></h3>
+            </div>
+
+                            
+
+        </div>
+        <!--projects div-->
+        <div class="row projects justify-content-center text-center" id="projects">
+            <h1 id="projects-text">My Projects</h1>
+            <div class="col-md-4 mt-5 shadow p-3 mb-5 bg-white rounded" data-aos="fade-right">
+                <h3>E Commerce Website</h3>
+                <img src="images/e_commerce.png" alt="" class="img-fluid" >
+                <a class="btn btn-outline-primary" href="https://github.com/VanamThirumaleshu/projects/tree/main/E-Commerce" target="_blank">Go to Project</a>
+            </div>
+            <div class="col-md-4 mt-5 shadow p-3 mb-5 bg-white rounded" data-aos="fade-down">
+                <h3>Restaurant Website</h3>
+                <img src="images/restaurant.png" alt="" class="img-fluid">
+                <a class="btn btn-outline-primary" href="https://github.com/VanamThirumaleshu/projects/tree/main/restaurant" target="_blank">Go to Project</a>
+            
+
+            </div>
+            <div class="col-md-4 mt-5 shadow p-3 mb-5 bg-white rounded" data-aos="fade-left">
+                <h3>To Do Website</h3>
+                <img src="images/todo.png" alt="" class="img-fluid">
+                <a class="btn btn-outline-primary" href="https://github.com/VanamThirumaleshu/projects/tree/main/To%20do%20list" target="_blank">Go to Project</a>
+            
+
+            </div>
+
+               
+            </div>
+
+
+            <!--Resume-->
+            <div class="row skills justify-content-center text-center" id="skills">
+                <h1 id="skills-text">My Skills</h1>
+                <div class="col-md-11 skills-col">
+                    
+                    
+                      <table class="table table-borderless mt-4">
+                        
+                        <tbody>
+                          <tr data-aos="fade-right">
+                            <th scope="row">1</th>
+                            <td>Python</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 80%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">7.5</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-left">
+                            <th scope="row">2</th>
+                            <td>Java</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 65%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">6.5</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-right">
+                            <th scope="row">3</th>
+                            <td>C</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 60%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">6</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-left">
+                            <th scope="row">4</th>
+                            <td>JavaScript</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 50%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">5</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-right">
+                            <th scope="row">5</th>
+                            <td>Web Development</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 50%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">5</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-left">
+                            <th scope="row">6</th>
+                            <td>HTML</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 70%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">7</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-right">
+                            <th scope="row">7</th>
+                            <td>CSS</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 60%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">6</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-left">
+                            <th scope="row">8</th>
+                            <td>Bootstrap</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 70%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">7</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-right">
+                            <th scope="row">9</th>
+                            <td>Data Structures and Algorithms</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar " style="width: 60%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">6</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr data-aos="fade-left">
+                            <th scope="row">10</th>
+                            <td>SQL</td>
+                            <td>
+                                <div class="progress" >
+                                    <div class="progress-bar " style="width: 75%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">7</div>
+                                  </div>
+                            </td>
+                            
+                          </tr>
+                          <tr id="react">
+                            <th scope="row">11</th>
+                            <td>React JS</td>
+                            <td>the Bird</td>
+                            
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <h4 style="color: #0d6efd;" data-aos="fade-up">I think you want to see my full resume then</h4><a href="https://drive.google.com/file/d/1SMhYJczbg2SlIuH-BLUm2TZr1TtFXnFo/view?usp=sharing" target="_blank" class="btn btn-outline-primary mt-4" data-aos="fade-up">Click Here</a>
+                </div>
+                
+                
+               
+                
+
+                   
+            </div>
+s
+
+
+            <!--Contac me div-->
+            <div class="row contact-me justify-content-center text-center" id="contact-me">
+                <h1 id="contact-me-text">Contact Me</h1>
+                
+                <div data-aos="zoom-in" class="col-md-4 text-center contact-me-col name-mobile-col shadow-lg p-3 mb-5 bg-white rounded">
+                  <form action="https://formsubmit.co/vanamsreenu78@gmail.com" method="post">
+                    <h2 style="color:#0d6efd">Enter your details here</h2>
+                    <input type="text" class="form-control" placeholder="Name here" id="name" required>
+                    <input type="text" class="form-control" placeholder="Mobile here" id="mobile" required>
+                    <input type="text" class="form-control" placeholder="Email here " id="email" required>
+                    <input type="text" class="form-control" placeholder="Email subject here" id="subject" required>
+                    <textarea id="message" class="form-control text-area-row" placeholder="Your message here"></textarea required>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="#thank">
+                    <input type="hidden" name="_template" value="table">
+                    <button id="send-btn" class="btn btn-outline-primary button-row" type="submit">Send Message</button>
+                  </form>
+                </div>
+               
+                
+
+                   
+            </div>
+            
+           <div class="row justify-content-center">
+            <div class="col-md-6 text-center shadow-lg p-3 mb-5 bg-white rounded"  id="thank" data-aos="zoom-in">
+                
+                <h2>Thank You!</h2>
+                <img src="images/thank.png" alt="" class="img-fluid" width="300px">
+                <p>Thank you for visiting my portfolio. I appreciate your time and interest.</p>
+                <p>Please feel free to reach out to me if you have any questions or inquiries. I would love to hear from you!</p>
+            </div>
+           </div>
+
+                            
+            
+        </div>
+
+
+    
+    
+</body>
+</html>
+<script src="script.js"></script>
